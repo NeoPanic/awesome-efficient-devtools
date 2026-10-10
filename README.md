@@ -44,6 +44,11 @@ Tools that help developers direct, inspect, review, and improve AI-assisted deve
 - [Agent QA](https://github.com/vostride/agent-qa) - Reuses execution memory and cached action plans across natural-language web and mobile tests, reducing repeated planning and UI-test maintenance.
 - [Supercov](https://github.com/supercorp-ai/supercov) - Code quality and test coverage for coding agents: Jev scores each source file so the agent knows what to fix first.
 
+## Efficient Application Development
+
+- [Micronaut](https://micronaut.io/) - JVM application framework using compile-time dependency injection to reduce runtime reflection, startup overhead, and memory usage.
+- [Jdbi 3](https://jdbi.org/) - Lightweight Java SQL access library that reduces JDBC boilerplate while keeping SQL explicit, without requiring a full ORM.
+
 ## Fast CLI Tools
 
 - [ripgrep](https://github.com/BurntSushi/ripgrep) - Searches files quickly while respecting common ignore rules, making repository navigation less wasteful.
