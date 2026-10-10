@@ -61,7 +61,7 @@ Tools that help developers direct, inspect, review, and improve AI-assisted deve
 
 ## Lightweight Observability
 
-- [StatLite](https://github.com/PVRLabs/statlite) - Lightweight, self-hosted application monitoring with SQLite history, native Spring Boot and Quarkus support, plus [easy integrations](https://github.com/PVRLabs/statlite/tree/main/docs/integrate) for Django, FastAPI, Express, Go, and other frameworks.
+- [StatLite](https://github.com/PVRLabs/statlite) - Lightweight, self-hosted application monitoring with SQLite history, native Spring Boot, Quarkus, and Micronaut support, plus [easy integrations](https://github.com/PVRLabs/statlite/tree/main/docs/integrate) for Django, FastAPI, Express, Go, and other frameworks.
 - [Beszel](https://github.com/henrygd/beszel) - Lightweight server monitoring with a small operational footprint.
 
 ## Data & Automation
