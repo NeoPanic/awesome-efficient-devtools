@@ -14,11 +14,13 @@ Efficiency can mean reducing:
 
 Open-source, local-first, small, composable, and single-purpose tools are preferred, but these are preferences rather than strict requirements. This is a curated list, not an exhaustive directory.
 
-## AI & Context Efficiency
+## AI-Assisted Development
+
+Tools that help developers direct, inspect, review, and improve AI-assisted development workflows, rather than primarily orchestrating autonomous agents.
 
 - [AI Badger](https://github.com/PVRLabs/aibadger) - A local-first tool for extracting focused repository context for ChatGPT, Claude, Gemini, Grok, and other AI assistants without requiring provider API integration.
 
-- [Orkas](https://github.com/Orkas-AI/Orkas) - Open-source, local-first desktop AI workforce whose Commander coordinates coding agents through one chat, reducing manual handoffs between agent sessions.
+- [Orkas](https://github.com/Orkas-AI/Orkas)† - Open-source, local-first desktop AI workforce whose Commander coordinates coding agents through one chat, reducing manual handoffs between agent sessions.
 
 - [YYLO](https://github.com/yylo-dev/yylo) - Command-line orchestrator that runs each coding-agent task in a dedicated branch/worktree with typed validation and merge boundaries, reducing context overhead and repetitive review work.
 
@@ -30,7 +32,7 @@ Open-source, local-first, small, composable, and single-purpose tools are prefer
 
 - [Screenpipe](https://github.com/screenpipe/screenpipe) - Local-first screen and audio history searchable through MCP and a local API, reducing repeated reconstruction of cross-app context for AI assistants. Source-available under a commercial license.
 
-- [Mnemoverse](https://github.com/mnemoverse/mcp-memory-server) - Hosted persistent memory for AI agents over MCP, with shared rooms and recall re-ranked by feedback on whether a memory helped or misled, reducing context re-explained in each new session. MIT-licensed MCP server for a proprietary hosted engine.
+- [Mnemoverse](https://github.com/mnemoverse/mcp-memory-server)† - Hosted persistent memory for AI agents over MCP, with shared rooms and recall re-ranked by feedback on whether a memory helped or misled, reducing context re-explained in each new session. MIT-licensed MCP server for a proprietary hosted engine.
 
 - [OrcaPromptVault](https://github.com/Continuum-AI-Corp/OrcaPromptVault) - Versioned archive of system prompts and tool schemas captured from AI agent harnesses, making their fixed context overhead inspectable and comparable.
 
@@ -79,6 +81,8 @@ Open-source, local-first, small, composable, and single-purpose tools are prefer
 
 - [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704) - A macOS utility for preventing sleep during builds, downloads, demos, and other long-running development tasks.
 - [GrandPerspective](https://grandperspectiv.sourceforge.net/) - An open-source macOS disk-usage analyzer that uses treemap visualization to make large files easy to find.
+
+† **Legacy inclusions:** Some AI-related projects were added before this list adopted its narrower focus on human-centered AI-assisted development. These entries are retained for historical continuity, although their primary focus does not strictly match the current category scope. New submissions follow the updated [contribution criteria](CONTRIBUTING.md).
 
 ## Related
 
