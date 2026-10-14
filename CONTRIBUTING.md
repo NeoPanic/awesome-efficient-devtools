@@ -14,6 +14,14 @@ Submissions are welcome when a tool has a clear, meaningful efficiency story. Go
 
 A trivial convenience alone is not necessarily enough; the benefit should be meaningful enough to justify recommending the tool. The tool should also have a resource footprint proportionate to its job and should not undermine its own efficiency story with excessive background processes, memory, CPU, network activity, or infrastructure. There are no arbitrary CPU, RAM, binary-size, star, download, maintainer-count, or similar thresholds. Some reasonable evidence that it is lightweight is expected, whether from its architecture, implementation, documentation, measurements, direct inspection, or credible user experience; formal benchmarks are not required.
 
+### Deployment simplicity
+
+For self-hosted services, we strongly prefer tools that can run as a single process with minimal external dependencies.
+
+Small multi-process architectures are acceptable when they serve a clear purpose, such as distributed monitoring.
+
+Tools requiring separate database servers, application services, or background workers face a higher bar for inclusion. A smaller footprint than an enterprise alternative is not sufficient by itself; the tool should demonstrate a meaningful reduction in operational complexity or resource usage.
+
 Trust and safety are part of this editorial screening. Do not include software that appears deceptive, suspicious, malicious, privacy-invasive, scammy, or unsafe, including open-source software. Consider unexpected telemetry or tracking, unnecessary data collection or transmission, credential handling, installers or update mechanisms, misleading claims, bundled software or unrelated background services, and obvious security or privacy concerns. This is an editorial standard, not a formal security audit or certification.
 
 Projects should be usable today, maintained enough to recommend, reasonably documented, and not obviously abandoned or broken. Early-stage projects may still qualify when their efficiency idea or implementation is particularly compelling, subject to the AI-Assisted Development requirements below.
